@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EYE-PD Demonstration</title>
+</head>
+<!-- Css Styles -->
+
+    <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+<body>
+<div class="videoWrap">
+    <div class="mask">
+        <div class="shape">
+        <svg width="800" height="560" >
+
+            <rect x="300" y="260" width="200" height="125"  stroke-dasharray="10,10" d="M5 40 l215 0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:4;fill-opacity:0.1;" />
+
+        </svg>
+        </div>
+    </div>
+
+<div class="videoflip">
+    <video id="video" width="740" height="580" autoplay></video>
+
+</div>
+    <button id="snap">Capture EYE-PD</button>
+    <div class="snapshot">
+        <canvas id="canvas" width="640" height="480" hidden></canvas>
+        <canvas id="canvas1" width ="640" height="480"></canvas>
+    </div>
+</div>
+</body>
+<script src="/static/js/main.js"></script>
+
+</html>

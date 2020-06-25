@@ -1,0 +1,53 @@
+.videoWrap {
+    position: relative;
+    z-index: 0;
+    width: 740px;
+    height: 555px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    height: 590px;
+    
+}
+.videoWrap .videoflip{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+.videoWrap .mask {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    right: 0px;
+    bottom: 0px;
+    left: 100px;
+    opacity: 0.35;
+} 
+.videoWrap .mask img {
+      width: 350px;
+    height: 350px;
+    margin-left: 187px;
+    
+
+}
+#snap {
+    position: absolute;
+    z-index: 1;
+    bottom: -30px;
+    color:white;
+    background-color: #008CBA;
+
+    
+}
+
+.snapshot{
+    margin-left: 800px;
+    margin-top: -483px;
+}
+#canvas{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 240px;
+    margin-top:-86px
+}
+
+
